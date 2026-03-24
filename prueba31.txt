@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AURELIA EXPERIENCIAS</title>
+    <style>
+    .card img {
+    width: 400px;   /* ancho */
+    height: 300px;  /* alto */
+    object-fit: cover; /* evita que se deforme */
+     }
+	body {
+        font-family: "Georgia", sans-serif; /*Cookie*/
+	}
+
+        {
+        font-family: "Georgia", serif;
+	background-color:#8fdde3;
+        color: #333;
+	}
+        body {
+            margin: 0;
+            font-family: Georgia, sans-serif;
+            background-color:#8fdde3;
+            color: #333;
+        }
+        header {
+            background: #8fdde3;
+            color: #0a0a0a;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            letter-spacing: 3px;
+        }
+        nav {
+            background: #c9a96e;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+        .hero {
+            background: url("Hogar.jpg") no-repeat center/cover;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-shadow: 1px 1px 5px black;
+        }
+        .hero h2 {
+            font-size: 40px;
+        }
+        .section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .card {
+            background: white;
+            margin: 15px;
+            padding: 20px;
+            width: 250px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+        .card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        footer {
+            background: #1f1f1f;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #c9a96e;
+            color: white;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>AURELIA</h1>
+    <p>Experiencias para Mascotas, Hogar,Vehículos y Empresas</p>
+</header>
+
+<header>
+<nav>
+<a href="#inicio">Inicio</a>
+<a href="#productos">Productos</a>
+<a href="#video">Experiencia</a>
+<a href="#testimonios">Opiniones</a>
+<a href="#contacto">Contacto</a>
+<a href="#Galeria">Galeria</a>
+</nav>
+
+<header>
+    <h3>GALERIA</h3>
+    <section class="section">
+    <div class="products">
+ <div class="card">
+            <img src="Logo1.jpg" alt="">
+            <a href="#" class="btn">Ver más</a>
+</header>
+
+<header>
+    <h1>EXPERIENCIAS EN CADA FRAGANCIA</h1>
+   <section class="section">
+    <div class="products">
+ <div class="card">
+            <img src="foto3.jpg" alt="">
+            <a href="#" class="btn">Ver más</a>
+</header>
+
+<section class="section">
+    <div class="products">
+
+        <!-- Tarjeta 1 -->
+        <div class="card">
+            <img src="foto3.jpg" alt="Fragancia 1">
+            <a href="#" class="btn">Ver más</a>
+        </div>
+
+        <!-- Tarjeta 2 -->
+        <div class="card">
+            <img src="foto4.jpg" alt="Fragancia 2">
+            <a href="#" class="btn">Ver más</a>
+        </div>
+
+        <!-- Tarjeta 3 -->
+        <div class="card">
+            <img src="foto5.jpg" alt="Fragancia 3">
+            <a href="#" class="btn">Ver más</a>
+        </div>
+ 
+
+  </header>
+
+<section class="section">
+    <h1>NUESTROS PRODUCTOS</h1>
+    <div class="products">
+ <div class="card">
+            <img src="foto2.jpg" alt="">
+            <h3>Experiencias para la empresa</h3>
+            <p>Ambientes frescos y elegantes donde da placer trabajar.</p>
+            <a href="#" class="btn">Regresar</a>
+        </div>
+<div class="card">
+    <img src="foto.jpg" alt="">
+    <h3>Experiencias para Mascotas</h3>
+    <p>Aromas suaves y seguros para tus mejores amigos.</p>
+    <a href="#" class="btn">Ver más</a>
+</div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85" alt="">
+            <h3>Experiencias para el Hogar</h3>
+            <p>Ambientes frescos y elegantes en cada espacio.</p>
+            <a href="#" class="btn">Ver más</a>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1511919884226-fd3cad34687c" alt="">
+            <h3>Experiencias para Vehículos</h3>
+            <p>Convierte cada viaje en una experiencia única.</p>
+            <a href="#" class="btn">Ver más</a>
+        </div>
+
+
+<section class="section" style="background:#eee;">
+    <h2>QUE ES AURELIA?</h2>
+    <p>Creamos experiencias diseñadas para brindar bienestar, frescura y elegancia en cada momento de tu vida.</p>
+</section>
+</div>
+
+    </style>
+</head>
+<body>
+
+
+</section>
+</div>
+
+<section class="section">
+    <h2>Contacto</h2>
+
+    <form action="https://formspree.io/f/TU_ID" method="POST">
+        
+        <input type="text" name="nombre" placeholder="Tu nombre" required><br><br>
+        
+        <input type="email" name="email" placeholder="Tu correo" required><br><br>
+        
+        <textarea name="mensaje" placeholder="Escribe tu mensaje" required></textarea><br><br>
+        
+        <button type="submit" class="btn">Enviar</button>
+
+    </form>
+
+    <p>O contáctanos directamente:</p>
+    <p>Email: yorlin100@gmail.com</p>
+    <p>WhatsApp: <a href="https://wa.me/573153184289" target="_blank">Escribir por WhatsApp</a></p>
+</section>
+
+
+</section>
+</div>
+
+<footer>
+    <p>© 2026 Aurelia - Todos los derechos reservados</p>
+</footer>
+
+</body>
+</html>
